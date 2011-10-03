@@ -1,0 +1,12 @@
+Namespaces:
+Hamlet: exposes the basic classes for graph manipulation (Graph, ColoredGraph, WeightedGraph, Tree, ColoredThere)
+Hamlet.ShortestPaths: exposes some algorithm providers for Dijkstra, Bellman-Ford and Flyod-Warshall
+Hamlet.Connectivity: exposes two algorithm providers for finding connected components and strongly connected components (Tarjan algorithm)
+Hamlet.OptiomalSpanningSubgraphs: exposes an algorithm provider for Kruskal algorithm
+
+Features:
+Determines whether a graph is trivial, directed, multigraph, bipartite, complete, regular, acyclic or connected. Calculates the neighbourhood set of vertices
+and edges, adjacency matrices, degree of vertices. Checks whether a graph is subgraph with respect to another graph and if it is the case of a spanning graph.
+Exposes and implementation of Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal and Tarjan algorithms.
+Determins whether an edge is a bridge. Finds connected components in the graph through a depth-first search.
+Supports trees and checks for rooted-tree isomorphism.
